@@ -1,5 +1,3 @@
-SSPA
-
 $ npm install
 
 $ gulp
