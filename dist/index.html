@@ -17,7 +17,7 @@
     <section ng-repeat="n in news track by n.id">
         <time></time>
         <article>
-            <h1><a href="/#/{{$index}}">{{n.title}}</a></h1>
+            <h1><a href="#/{{$index}}">{{n.title}}</a></h1>
             <div>{{n.content | htmlToPlaintext | stripURLs | limitTo : '149'}}&nbsp;&hellip;</div>
         </article>
     </section>
